@@ -23,9 +23,9 @@ function App() {
   return (
     <>
       <div className="flex flex-col mt-8 items-center justify-center ">
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row items-center justify-center">
           <h1 className="text-6xl concert me-8">What</h1>
-          <div className="flex">
+          <div className="flex justify-center items-center">
             <motion.h2
               className="text-8xl text-pretty concert text-purple-500"
               onClick={handleHome}
